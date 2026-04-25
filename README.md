@@ -24,7 +24,14 @@ If [Graphify](https://graphify.net) is installed in your repository, the skill a
 
 ## Installation
 
-Drag and drop `spec-driven-development.plugin` into Claude Code or Cowork to install.
+Install via the Claude Code marketplace:
+
+```
+/plugin marketplace add GameFixxer/spec-driven-development
+/plugin install spec-driven-development@spec-driven-development
+```
+
+That's it — the `sdd` skill becomes available immediately.
 
 ## Usage
 
