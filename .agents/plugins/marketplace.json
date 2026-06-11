@@ -1,7 +1,7 @@
 {
   "name": "spec-driven-development",
   "interface": {
-    "displayName": "Spec-Driven Development Plugins"
+    "displayName": "Spec-Driven Development Plugin"
   },
   "plugins": [
     {
@@ -12,31 +12,7 @@
       },
       "policy": {
         "installation": "AVAILABLE",
-        "authentication": "NONE"
-      },
-      "category": "Productivity"
-    },
-    {
-      "name": "spec-driven-development-junie",
-      "source": {
-        "source": "local",
-        "path": "./plugins/junie/spec-driven-development"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "NONE"
-      },
-      "category": "Productivity"
-    },
-    {
-      "name": "spec-driven-development-roo",
-      "source": {
-        "source": "local",
-        "path": "./plugins/roo/spec-driven-development"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "NONE"
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     }

@@ -1,6 +1,6 @@
 # Spec-Driven Development (SDD)
 
-A Claude Code / Cowork plugin that guides you through a structured, specification-first workflow for building software features — so you never jump straight into code again.
+A structured, specification-first development plugin for Codex, installed via the Codex marketplace — so you never jump straight into code again.
 
 ## What it does
 
@@ -16,7 +16,7 @@ It also supports **Sprint Mode** — a multi-feature, multi-agent team workflow 
 
 ## Why spec-first?
 
-Projects that skip specification accumulate drift between what was intended and what gets built. Specs catch misunderstandings when they're cheap to fix. Plans force technical decisions before you're knee-deep in implementation. Task lists give you and Claude a shared view of what's done and what's left.
+Projects that skip specification accumulate drift between what was intended and what gets built. Specs catch misunderstandings when they're cheap to fix. Plans force technical decisions before you're knee-deep in implementation. Task lists give you and your coding agent a shared view of what's done and what's left.
 
 ## Graphify integration
 
@@ -24,7 +24,7 @@ If [Graphify](https://graphify.net) is installed in your repository, the skill a
 
 ## Installation
 
-Install via the Claude Code marketplace:
+Install via the Codex marketplace:
 
 ```
 /plugin marketplace add GameFixxer/spec-driven-development
@@ -32,6 +32,8 @@ Install via the Claude Code marketplace:
 ```
 
 That's it — the `sdd` skill becomes available immediately.
+
+For other agents: this repository only ships direct Codex marketplace installation. Other hosts would need their own packaging or a manual integration path for the same workflow.
 
 ## Usage
 
